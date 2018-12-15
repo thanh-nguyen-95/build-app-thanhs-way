@@ -27,9 +27,9 @@ Files to be tested:
 
 ## Manual test
 
-- [ ] Input keywords, should see correct result
-- [ ] Result list should be cleared for new keyword
-- [ ] Search box is focused on initial load
+- [x] Input keywords, should see correct result
+- [x] Result list should be cleared for new keyword
+- [x] Search box is focused on initial load
 
 ## Deploy
 
