@@ -1,7 +1,7 @@
 import dogList from "./mockdata";
 
 export function transformWord(word) {
-  if (word) {
+  if (word && typeof word === "string") {
     return word.replace(/\s/g, "").toLowerCase();
   }
 
@@ -9,7 +9,7 @@ export function transformWord(word) {
 }
 
 export function search(keyword) {
-  if (keyword) {
+  if (keyword && typeof keyword === "string") {
     return dogList.filter(
       dog => transformWord(dog.type).indexOf(transformWord(keyword)) > -1
     );
