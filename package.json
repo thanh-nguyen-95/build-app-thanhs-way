@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel ./2-Develop/src/index.html",
-    "test": "jest",
+    "test": "jest --watch",
     "build": "parcel build './2-Develop/src/index.html' -d './2-Develop/build'"
   },
   "keywords": [],
