@@ -1,26 +1,7 @@
 import "tachyons/css/tachyons.min.css";
-import dogList from "./mockdata";
+import { search } from "./util";
 
-function transformWord(word) {
-  if (word) {
-    return word.replace(" ", "").toLowerCase();
-  }
-
-  return "";
-}
-
-function search(keyword) {
-  if (keyword) {
-    return dogList.filter(
-      dog => transformWord(dog.type).indexOf(transformWord(keyword)) > -1
-    );
-  }
-
-  // return empty list by default
-  return [];
-}
-
-function renderResult(result) {
+export function renderResult(result) {
   const resultSection = document.getElementById("result");
 
   // clear prev result
@@ -49,7 +30,7 @@ function renderResult(result) {
   }
 }
 
-function handleKeywordChange(event) {
+export function handleKeywordChange(event) {
   console.log(event.target.value);
 
   const result = search(event.target.value);
