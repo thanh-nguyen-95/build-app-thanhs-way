@@ -94,9 +94,9 @@ Let's get started.
 
 - [x] Init project
 - [x] Add dev/build/watch script
-- [ ] Basic layout:
-  - [ ] Search box
-  - [ ] Search result list
-- [ ] Core:
-  - [ ] Mock data
-  - [ ] Search function
+- [x] Basic layout:
+  - [x] Search box
+  - [x] Search result list
+- [x] Core:
+  - [x] Mock data
+  - [x] Search function
