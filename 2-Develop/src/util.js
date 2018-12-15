@@ -2,7 +2,7 @@ import dogList from "./mockdata";
 
 export function transformWord(word) {
   if (word) {
-    return word.replace(" ", "").toLowerCase();
+    return word.replace(/\s/g, "").toLowerCase();
   }
 
   return "";
