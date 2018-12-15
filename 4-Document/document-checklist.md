@@ -27,14 +27,15 @@ Simply gather all the checklist and add to the following sections (this is also 
 
 Steps:
 
-1. Add a `div` tag with `id` of choice above the header.
+1. Add an `<a></a>` tag with `name` of choice above the header.
 
    ```md
-   <div id="my-heading"></div>
+   <a name="my-heading"></a>
+
    ## The heading you want to mark
    ```
 
-2. In the table of content, add a `link` with the `href` like so.
+2. In the table of content, link to the `<a></a>` tag with `#name-of-the-heading`.
 
    ```md
    Table of content:

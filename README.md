@@ -9,7 +9,9 @@ Table of content:
 - [Structure](#structure)
 - [References](#references)
 
-## Introduction <div id="#intro"></div>
+<a name="intro"></a>
+
+## Introduction
 
 > There are many ways to build an application. This is **MY** way of building an application (**as a front-end developer**).
 
@@ -21,16 +23,20 @@ Features:
 2. A running demo (duh)
 3. Unit testing with [Jest][jest]
 
-## Getting started <a name="get-started" />
+<a name="get-started"></a>
 
-<div id="#prerequisites"></div>
+## Getting started
+
+<a name="prerequisites"></a>
 
 ### Prerequisites
 
 - [Node.js](https://nodejs.org)
 - [Git](https://git-scm.com/)
 
-### Installation <div id="#installation"></div>
+<a name="installation"></a>
+
+### Installation
 
 1. Clone the repository
 
@@ -65,11 +71,15 @@ Features:
    npm run test
    ```
 
-## Structure <div id="#structure"></div>
+<a name="structure"></a>
+
+## Structure
 
 The project is structured based on the process of how I build an application. For more detail, please consult the `.md` file in each step's folder.
 
-## References <div id="#references"></div>
+<a name="references"></a>
+
+## References
 
 - [Node.js](https://nodejs.org)
 - [npm](https://www.npmjs.com)
