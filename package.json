@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel ./2-Develop/src/index.html",
-    "test": "jest --watch",
+    "test": "jest",
     "build": "parcel build './2-Develop/src/index.html' -d './2-Develop/build'"
   },
   "keywords": [],
@@ -15,6 +15,8 @@
     "tachyons": "^4.11.1"
   },
   "devDependencies": {
-    "jest": "^23.6.0"
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "parcel-bundler": "^1.10.3"
   }
 }
