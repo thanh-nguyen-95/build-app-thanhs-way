@@ -30,6 +30,7 @@ describe("util.js", () => {
     });
     test("it should return empty array if no keyword is passed in", () => {
       expect(search()).toHaveLength(0);
+      expect(search("")).toHaveLength(0);
     });
     test("it should return empty array if keyword is not a string", () => {
       expect(search(1)).toHaveLength(0);
@@ -39,6 +40,5 @@ describe("util.js", () => {
       expect(search(null)).toHaveLength(0);
       expect(search(undefined)).toHaveLength(0);
     });
-
   });
 });
