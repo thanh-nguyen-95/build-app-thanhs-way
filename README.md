@@ -1,4 +1,4 @@
-# Build Apps Thành's Way
+# Build App Thành's Way
 
 Table of content:
 
@@ -35,7 +35,7 @@ Features:
 1. Clone the repository
 
    ```sh
-   git clone
+   git clone https://github.com/thanh-nguyen-95/build-app-thanhs-way.git
    ```
 
 2. Install all packages
