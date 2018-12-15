@@ -21,11 +21,11 @@ Features:
 2. A running demo (duh)
 3. Unit testing with [Jest][jest]
 
-<div id="#get-started"></div>
+## Getting started <a name="get-started" />
 
-## Getting started
+<div id="#prerequisites"></div>
 
-### Prerequisites <div id="#prerequisites"></div>
+### Prerequisites
 
 - [Node.js](https://nodejs.org)
 - [Git](https://git-scm.com/)
